@@ -1,0 +1,1 @@
+Primeira parte do desafio individual - Estórias das Sprints.
