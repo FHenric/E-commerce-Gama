@@ -1,33 +1,27 @@
-<h1>I Desafio individual - Parte 1 - Planejamento.</h1>
+<h1>I Desafio individual - Loja de suplementos - Planejamento.</h1>
 
-<h6>Sprint 1 - Página inicial: HTML/CSS </h6>
+<h4>Sprint 1 - Página inicial(vitrine)/Páginas dos produtos </h4>
 
-
-Aqui teremos uma vitrine contendo 3 partes
+<h6>Vitrine contendo 3 partes</h6>
     
  Header: link de acesso: da página inicial, pagina com os produtos 
- 
-    - HTML: logo da loja, links para login/cadastro, formulario de pesquisa e carrinho de compras [1p]
-    - HTML dos tópicos (links)[1p]
+
+    - HTML: logo da loja, links para login/cadastro, form de pesquisa e carrinho de compras [1p]
+    - HTML: tópicos (links) que levarão a futuras páginas especificas[1p]
     - Estilizar/posicionar tudo com CSS [3p]
-    
- Main: A vitrine em sí com os produtos, dividindo em 4 colunas de produtos
-    
-    - HTML dos containers de produtos [1p]
-    - Posicionamento e estilização dos produtos [3p]
-    
- Footer: Link do "sobre a loja", "contatos" e "midias sociais".
-   
+
+ Main: A vitrine em si com os produtos, dividindo em 4 colunas de produtos
+    - HTML: containers de produtos [1p]
+    - CSS: Posicionamento e estilização dos produtos [3p]
+
+ Footer: Link do "sobre a loja", "contatos" e "mídias sociais".
+
     - Links de acesso para a pagina institucional [1p]
-    - visual fantasma contendo redes sociais e contatos da loja [1]
+    - visual fantasma contendo redes sociais e contatos da loja [1p]
 
+<h6>Será inserido o Header/Footer já formatados e será construído o Main dos produtos.</h6>
 
-
-<h6>Sprint 2 - Página do produto: HTML/CSS </h6>
-
-Aqui teremos uma vitrine contendo 3 partes
-
- Imagem e preço
+ Imagem e preço:
 
 	- HTML: Inserção das imagens e preço do produto [3p]
 	- HTML: descrição de pagamento e frete (calculo de CEP) [1p]
@@ -37,28 +31,46 @@ Descrição:
 
 	- HTML da descrição e imagem da tabela nutricional [3p]
 	- Posicionamento e estilização dos produtos [3p]
-	
+
 Produtos relacionados:
-	- Adicionar outros produtos da mesma categoria [3p]
 
-repetição do footer. 
+​	- Adicionar outros produtos da mesma categoria [3p]
+ 
+**Entrega:  20/07/2021**
 
-<h6>Sprint 3 - Página institucional HTML/CSS </h6>
 
-Aqui teremos uma vitrine contendo 3 partes
 
- Imagem e preço
+<h4>Sprint 2 - Página institucional/Página de catalogos específicos. HTML/CSS </h4>
 
-	- HTML: Inserção das imagens e preço do produto [3p]
-	- HTML: descrição de pagamento e frete (calculo de CEP) [1p]
+<h6>Será inserido o Header/Footer já formatados e construido o Main da página</h6>
+
+ Main
+
+	- HTML: Texto contendo os tópicos basicos sobre a empresa [1p]
+	- Estilizar/posicionar tudo com CSS [3p]
+
+<h6>Faremos aqui uma página só para apresentação de uma categoria de produto.</h6>
+
+Será inserido o Header/Footer já formatados
+
+ Página - Whey: repetição simples do catálogo (pagina inicial), porém filtrado para os produtos Whey
+
+	- HTML: inserção dos containers de produtos whey [3p]
 	- Estilizar/posicionar tudo com CSS [5p]
 
-Descrição: 
+Página - Creatina: 
 
-	- HTML da descrição e imagem da tabela nutricional [3p]
-	- Posicionamento e estilização dos produtos [3p]
-	
-Produtos relacionados:
-	- Adicionar outros produtos da mesma categoria [3p]
+	- HTML: Inserção dos produtos: creatina [3p]
+	- Posicionamento e estilização dos produtos [5p]
 
-repetição do footer. 
+Página - Diurético: 
+
+	- HTML: Inserção dos produtos: diuréticos [3p]
+	- Posicionamento e estilização dos produtos [5p]	
+
+Página - Colágeno: 
+
+	- HTML: Inserção dos produtos: Colagenos [3p]
+	- Posicionamento e estilização dos produtos [5p]
+
+**Entrega: 23/07/2021**
