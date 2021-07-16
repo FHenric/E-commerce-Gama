@@ -1,5 +1,17 @@
 <h1>I Desafio individual - Loja de suplementos - Planejamento.</h1>
 
+Este projeto é uma atividade proposta pela Gama Academy, com o objetivo de por em prática os ensinamentos sobre HTML/CSS.
+
+A ideia do site é basicamente uma loja de suplementos ficticia, com foco de vender produtos em duas categorias:
+Crescimento (ganho de massa) e Emagrecimento(definição).
+
+Sua estrutura será dividida em 5 páginas:
+	Vitrine: Página principal contendo todos os produtos disponiveis no momento.
+	Categoria - Whey: Todos os produtos categorizados como Whey (para fins de treinamento serão 5 containers com o mesmo produto, para fins de análise de responsividade.)
+	Categoria - Creatina: Mesmo esquema da página (Categoria - Whey)
+	Produto: Teremos uma página do produto Whey disponivel no site contendo descrição/beneficios e produtos relacionados (novamente utilizaremos o mesmo produto repetídos em containers para fins de ilustração)
+	Institucional: Página com texto bem estilizado com descrição da empresa (bem provavelmente algumas partes do texto terá "Lorem Ipsum" para fins ilustrativos)
+
 <h4>Sprint 1 - Página inicial(vitrine)/Páginas dos produtos </h4>
 
 <h6>Vitrine contendo 3 partes</h6>
@@ -74,3 +86,5 @@ Página - Colágeno:
 	- Posicionamento e estilização dos produtos [5p]
 
 **Entrega: 23/07/2021**
+
+Agradecimentos: Agradeço a Gama Academy por me mostrar que eu consigo produzir meu proprio site e praticar de forma ativa (sem ta copiando o que o professor passa no video).
