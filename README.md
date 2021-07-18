@@ -50,6 +50,15 @@ Produtos relacionados:
 
 **Entrega:  20/07/2021**
 
+**Entregue: 18/07/2021 - às 19:14**
+
+<h3> Retrospectiva da Sprint </h3> 
+
+    Primeiro foi feito a pagina inicial sem auxilio de bibliotecas, após isso, readaptamos a página inicial com o bootstrap5.
+	
+    A  página do produto foi feita parcialmente com bootstrap, o Footer continua "puro". Fora o que estava programado na sprint
+adicionamos uma section para feedback do produto.
+
 
 
 <h4>Sprint 2 - Página institucional/Página de catalogos específicos. HTML/CSS </h4>
