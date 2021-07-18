@@ -15,7 +15,7 @@ Sua estrutura será dividida em 5 páginas:
 <h4>Sprint 1 - Página inicial(vitrine)/Páginas dos produtos </h4>
 
 <h6>Vitrine contendo 3 partes</h6>
-    
+
  Header: link de acesso: da página inicial, pagina com os produtos 
 
     - HTML: logo da loja, links para login/cadastro, form de pesquisa e carrinho de compras [1p]
@@ -47,7 +47,7 @@ Descrição:
 Produtos relacionados:
 
 ​	- Adicionar outros produtos da mesma categoria [3p]
- 
+
 **Entrega:  20/07/2021**
 
 
@@ -73,17 +73,7 @@ Será inserido o Header/Footer já formatados
 Página - Creatina: 
 
 	- HTML: Inserção dos produtos: creatina [3p]
-	- Posicionamento e estilização dos produtos [5p]
-
-Página - Diurético: 
-
-	- HTML: Inserção dos produtos: diuréticos [3p]
 	- Posicionamento e estilização dos produtos [5p]	
-
-Página - Colágeno: 
-
-	- HTML: Inserção dos produtos: Colagenos [3p]
-	- Posicionamento e estilização dos produtos [5p]
 
 **Entrega: 23/07/2021**
 

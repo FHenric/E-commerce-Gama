@@ -8,153 +8,220 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
     <title>Let's Grow!!!</title>
-
 </head>
 
 <body>
-    <header>
-        <section class="container-search-img-account">
-            <div class="search">
-                <input type="search" name="busca" placeholder="O que procura?"> 
-                <button>
-                    <i class="fas fa-search"></i>
-                </button>
+    <header class="container-fluid">
+        <div class="row">
+            <div> 
+                <img src="/Imagens/Logo.png" class="rounded mx-auto d-block" alt="Logo">
             </div>
-
-        <img src="/Imagens/Logo.png" alt="Logo">
-            
-            <div class="account">
-                <ul>
-                    <li>
-                        <a href="/HTML/Index.html" >Fazer Login</a>
-                    </li>
-                    <li>
-                        <a href="/HTML/Index.html">Cadastrar</a>
-                    </li>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-gradient">
+            <div class="container-fluid" >
+              <a class="navbar-brand" href="/HTML/Index.html"><i class="fas fa-home"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Ganho de massa
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="/HTML/categoria-whey.html">Whey</a></li>
+                      <li><a class="dropdown-item" href="/HTML/categoria-creatina.html">Creatina</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Para secar
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Colágeno</a></li>
+                      <li><a class="dropdown-item" href="#">Diurético</a></li>
+                    </ul>
+                  </li>
                 </ul>
-                <span><i class="fas fa-shopping-cart"></i></span>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder='O que deseja' aria-label="Search">
+                  <button class="btn btn-outline-dark" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
             </div>
-        </section>
-
-        <section class="dropdown-container">
-            <nav class="dropdown">
-                <button class="dropbtn">Massa muscular <i class="fas fa-sort-down"></i> </button>
-                <nav class="dropdown-content">
-                    <a href="/HTML/categoria1.html">Whey</a>
-                    <a href="/HTML/categoria2.html">Creatina</a>
-                </nav>
-            </nav>
-            <nav class="dropdown">
-                <button class="dropbtn">Definição <i class="fas fa-sort-down"></i> </button>
-                <nav class="dropdown-content">
-                    <a href="/HTML/categoria1.html">Colágeno</a>
-                    <a href="/HTML/categoria2.html">Diurético</a>
-                </nav>
-            </nav>
-        </section>
+          </nav>
     </header>
-<!-- -------------------------------------------------------------------------------------------------------------------------------- -->
-    <main>
-        <section >
-            <div class="vitrine">
-                <ul>
-                    <li class="product.container">
-                        <a href="/HTML/whey.html">
-                            <img class="product.img" src="/Imagens/Whey.jpg" alt="Whey" title="Nutri Whey Protein">
-                        </a>
-                        <div class="space"></div>
-                        <div class="product-info">
-                                <a href="/HTML/whey.html"><h3>Nutri Whey Protein</h3></a>
-                            <div class="manufaturer">
-                                <p>Integral Médica</p>
-                            </div>
-                            <div class="price-box">
-                                <span class="price">R$80,00</span>
-                            </div>
-                            <div>
-                                <span class="price-parcela">2x de R$40,00</span>
-                            </div>
-                            <div class="a-vista">R$70,00</div>
-                            <span >Á vista</span>
-                        </div>
-                    </li>
-
-                    <li class="product.container">
-                        <a href="/HTML/whey.html">
-                            <img class="product.img" src="/Imagens/Creatina.jpg" alt="Creatina" title="ATLAS CREATINA (150G) IRIDIUM">
-                        </a>
-                        <div class="summary"></div>
-                        <div class="product-info">
-                            <a href="/HTML/whey.html"><h3>Atlas Creatina (150G) Iridium</h3></a>
-                        <div class="manufaturer">
-                            <p>Iridium</p>
-                        </div>
-                        <div class="price-box">
-                            <span class="price">R$32,00</span>
-                        </div>
-                        <div>
-                            <span class="price-parcela">2x de R$16,00</span>
-                        </div>
-                        <div class="a-vista">R$27,00</div>
-                        <span>Á vista</span>
+<!--------------------------------------------------------------------------------------------------->
+    <main class="container">
+        <section class="row justify-content-center" id="vitrine">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"id="produto">
+                <div class="card" style="width: 15rem;">
+                    <img src="/Imagens/Whey.jpg" class="card-img-top" alt="WHEY">
+                    <div class="card-body">
+                      <h4 class="card-title">Nutri Whey Protein (900G)</h4>
+                      <p class="card-text" id="fabricante">Integral Médica</p>
+                      <p class="card-text">R$80,00</p>
+                      <p class="card-text">2x R$40,00</p>
+                      <hr>
+                      <h3>R$70,00</h3>
+                      <h3>Á Vista!!</h3>
+                      <br>
+                      <a href="/HTML/whey-nutri.html" class="btn btn-primary" id="btn-detalhes">Detalhes</a>
                     </div>
-                    </li>
-
-                    <li class="product.container">
-                        <a href="/HTML/whey.html">
-                            <img class="product.img" src="/Imagens/Colágeno.jpg" alt="Colágeno" title="Bio Colagen Max Titanium">
-                        </a>
-                        <div class="summary"></div>
-                        <div class="product-info">
-                                <a href="/HTML/whey.html"><h3>Bio Colagen (150G) MAX</h3></a>
-                            <div class="manufaturer">
-                                <p>Max Titanium</p>
-                            </div>
-                            <div class="price-box">
-                                <div>
-                                    <span class="price">De:</span><span id="line">R$52,70</span>
-                                </div>
-
-                                <div>
-                                    <span class="price">Por: R$41,00</span>
-                                </div>
-
-                                <div>
-                                    <span class="price-parcela">2x de R$20,50</span>
-                                </div> 
-
-                                <div class="a-vista">R$35,00</div>
-                                <span>Á vista</span>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="product.container">
-                        <a href="/HTML/whey.html">
-                            <img class="product.img" src="/Imagens/Diuretico.jpg" alt="Diurético" title="Chá Verde em Capsula">
-                        </a>
-                        <div class="summary"></div>
-                        <div class="product-info">
-                                <a href="/HTML/whey.html"><h3>Chá Verde (60CAPS) MIDWAY</h3></a>
-                            <div class="manufaturer">
-                                <p>MIDWAY</p>
-                            </div>
-
-                            <div class="price-box">
-                                <span id="line">R$38,99</span>
-                            </div>
-                            
-                            <div class="a-vista">R$35,99</div>
-                            <span>Á vista</span>
-                        </div>
-                    </li>
-                </ul>
+                  </div>
             </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3"id="produto">
+                <div class="card" style="width: 15rem;">
+                    <img src="/Imagens/Creatina.jpg" class="card-img-top" alt="CREATINA">
+                    <div class="card-body">
+                      <h4 class="card-title">Atlas Creatina (150G) Iridium</h4>
+                      <p class="card-text" id="fabricante">Iridium</p>
+                      <p class="card-text">R$32,00</p>
+                      <p class="card-text">2x de R$16,00</p>
+                      <hr>
+                      <h3>R$27,00</h3>
+                      <h3>Á Vista!!</h3>
+                      <br>
+                      <a href="/HTML/produto.html" class="btn btn-primary" id="btn-detalhes">Detalhes</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" id="produto">
+                <div class="card" style="width: 15rem;">
+                    <img src="/Imagens/Colágeno.jpg" class="card-img-top" alt="COLAGENO">
+                    <div class="card-body">
+                      <h4 class="card-title">Bio Colagen (150G) MAX</h4>
+                      <p class="card-text" id="fabricante">Max Titanium</p>
+                      <p class="card-text"><s>De: $52,70</s></p>
+                      <p class="card-text">Por: R$41,00</p>
+                      <p class="card-text">2x de R$20,50</p>
+                      <hr>
+                      <h3>R$35,00</h3>
+                      <h3>Á Vista!!</h3>
+                      <br>
+                      <a href="/HTML/produto.html" class="btn btn-primary" id="btn-detalhes">Detalhes</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" id="produto">
+                <div class="card" style="width: 15rem;">
+                    <img src="/Imagens/Diuretico.jpg" class="card-img-top" alt="DIURETICO">
+                    <div class="card-body">
+                      <h4 class="card-title">Chá Verde (60CAPS) MIDWAY</h4>
+                      <p class="card-text" id="fabricante">Midway</p>
+                      <p class="card-text">R$38,99</p>
+                      <p class="card-text">2x R$19,99</p>
+                      <hr>
+                      <h3>R$34,99</h3>
+                      <h3>Á Vista!!</h3>
+                      <br>
+                      <a href="/HTML/produto.html" class="btn btn-primary" id="btn-detalhes">Detalhes</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" id="produto">
+                <div class="card" style="width: 15rem;">
+                    <img src="/Imagens/creatina-350g.jpg" class="card-img-top" alt="CREATINA">
+                    <div class="card-body">
+                      <h4 class="card-title">Creatina Darkness (350g)</h4>
+                      <p class="card-text" id="fabricante">Integral Medica/Darkness</p>
+                      <p class="card-text">R$95,00</p>
+                      <p class="card-text">2x R$47,50</p>
+                      <hr>
+                      <h3>R$85,99</h3>
+                      <h3>Á Vista!!</h3>
+                      <br>
+                      <a href="/HTML/produto.html" class="btn btn-primary" id="btn-detalhes">Detalhes</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" id="produto">
+                <div class="card" style="width: 15rem;">
+                    <img src="/Imagens/creatine_100_pure_300g.png" class="card-img-top" alt="CREATINA">
+                    <div class="card-body">
+                      <h4 class="card-title">Creatina 100% Pure (300g)</h4>
+                      <p class="card-text" id="fabricante">Athletica Nutrition</p>
+                      <p class="card-text">R$75,00</p>
+                      <p class="card-text">3x R$25,00</p>
+                      <hr>
+                      <h3>R$66,99</h3>
+                      <h3>Á Vista!!</h3>
+                      <br>
+                      <a href="/HTML/produto.html" class="btn btn-primary" id="btn-detalhes">Detalhes</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" id="produto">
+                <div class="card" style="width: 15rem;">
+                    <img src="/Imagens/on-whey-gold-standard-chocolate-2_00-lbs-_907g_.png" class="card-img-top" alt="WHEY">
+                    <div class="card-body">
+                      <h4 class="card-title">100% Whey Protein (900G)</h4>
+                      <p class="card-text" id="fabricante">Optium Nutrition</p>
+                      <p class="card-text">R$300,00</p>
+                      <p class="card-text">3x R$100,00</p>
+                      <hr>
+                      <h3>R$270,00</h3>
+                      <h3>Á Vista!!</h3>
+                      <br>
+                      <a href="/HTML/produto.html" class="btn btn-primary" id="btn-detalhes">Detalhes</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" id="produto">
+                <div class="card" style="width: 15rem;">
+                    <img src="/Imagens/Darkwhey.png" class="card-img-top" alt="WHEY">
+                    <div class="card-body">
+                      <h4 class="card-title">Dark Whey (1200g)</h4>
+                      <p class="card-text" id="fabricante">Integral Médica/Darkness</p>
+                      <p class="card-text">R$190,00</p>
+                      <p class="card-text">2x R$95,00</p>
+                      <hr>
+                      <h3>R$169,99</h3>
+                      <h3>Á Vista!!</h3>
+                      <br>
+                      <a href="/HTML/produto.html" class="btn btn-primary" id="btn-detalhes">Detalhes</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" id="produto">
+              <div class="card" style="width: 15rem;">
+                  <img src="/Imagens/feminiwhey.jpg" class="card-img-top" alt="WHEY">
+                  <div class="card-body">
+                    <h4 class="card-title">Femini Whey 900g</h4>
+                    <p class="card-text" id="fabricante">Max Titanium</p>
+                    <p class="card-text">R$130,00</p>
+                    <p class="card-text">2x R$65,00</p>
+                    <hr>
+                    <h3>R$99,99</h3>
+                    <h3>Á Vista!!</h3>
+                    <br>
+                    <a href="/HTML/produto.html" class="btn btn-primary" id="btn-detalhes">Detalhes</a>
+                  </div>
+                </div>
+          </div>
+            
         </section>
     </main>
-    <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- vou refazer em bootstrap pra ver se fica mais responsivo -->
     <footer>
         <section class="footer">
             <div class="about">
@@ -186,5 +253,7 @@
             </div>
         </section>
     </footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
