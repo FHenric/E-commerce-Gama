@@ -94,4 +94,9 @@ Página - Creatina:
 	
     Foi observado que, ao abrir os arquivos .html diretamente no browser, a página não é carregada com o arquivo CSS e imagens. Entretanto, ao iniciar com o "Go Live" do Visual Studio Code, conseguimos ver a implementação de imagem e estilização via CSS.
 
+<h4>Bugfix update</h4>
+
+	Conseguimos corrigir o erro que afetava imagens e links direcionados para outros arquivos html da pasta.
+	Além disso, organizamos o codigo a fim de facilitar a leitura, e adicionamos o mini rondapé de assinatura (um prototipo na vdd)
+
 Agradecimentos: Agradeço a Gama Academy por me mostrar que eu consigo produzir meu proprio site e praticar de forma ativa (sem ta copiando o que o professor passa no video).
