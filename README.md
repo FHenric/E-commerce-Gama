@@ -86,4 +86,12 @@ Página - Creatina:
 
 **Entrega: 23/07/2021**
 
+**Entregue: 21/07/2021 - às 13:17**
+
+<h3> Retrospectiva da Sprint </h3> 
+
+    A partir da modelagem do Footer e Header, na primeira sprint, conseguimos fazer toda a parte de corpo das páginas propostas e forma mais rápida e prática.
+	
+    Foi observado que, ao abrir os arquivos .html diretamente no browser, a página não é carregada com o arquivo CSS e imagens. Entretanto, ao iniciar com o "Go Live" do Visual Studio Code, conseguimos ver a implementação de imagem e estilização via CSS.
+
 Agradecimentos: Agradeço a Gama Academy por me mostrar que eu consigo produzir meu proprio site e praticar de forma ativa (sem ta copiando o que o professor passa no video).
