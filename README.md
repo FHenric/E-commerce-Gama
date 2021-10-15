@@ -1,6 +1,6 @@
 <h1>I Desafio individual - Loja de suplementos - Planejamento.</h1>
 
-<h3><a href="https://fhenric.github.io/Lets-Grow-Suplementos/HTML/Index.html" target="blank"> Acesse aqui!!<a> </h3>
+<h3><a href="https://fhenric.github.io/Lets-Grow-Suplementos/Index.html" target="blank"> Acesse aqui!!<a> </h3>
 
 Este projeto é uma atividade proposta pela Gama Academy, com o objetivo de por em prática os ensinamentos sobre HTML/CSS.
 
