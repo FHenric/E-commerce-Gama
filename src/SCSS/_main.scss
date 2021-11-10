@@ -1,0 +1,26 @@
+.vitrine{
+    @include flex-wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    
+    
+}
+.produto{
+    margin: 15px auto;
+
+    .card-title, .card-body h3{
+        color: $color-4;
+        font-style: bold;
+    }
+    .card-body p{
+        font-size: 19px;
+    }
+    .fabricante{
+        font-style: italic;
+        color: rgb(139, 139, 139);
+    }
+    .detalhes{
+        @include button;
+    }
+}

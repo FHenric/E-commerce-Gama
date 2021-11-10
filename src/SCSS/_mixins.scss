@@ -1,0 +1,33 @@
+@mixin flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin body {
+    * {
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+        transition: 400ms;
+    }
+}
+@mixin icon-footer{
+    background-color: $color-1;
+    color: $color-2;
+    font-size: 25px;
+    border-radius: 4px;
+}
+@mixin icon-hover{
+    border: 1px solid $color-1;
+    border-radius: 4px;
+    color: $color-1;
+    background-color: $color-2;
+}
+@mixin button{
+    background-color: $color-4;
+    color: $color-3;
+    border:$color-4;
+        &:hover{
+            background-color: $color-2;
+            color: $color-1;
+        }
+}

@@ -1,0 +1,13 @@
+.buy-btn{
+    @include button;
+}
+.accordion-button{
+    background-color: $color-4;
+    color: $color-3;
+}
+#prod-rel{
+    background-color: $color-2;
+    color: $color-3;
+    margin: 1rem 0px;
+    padding: 5px 0px;
+}

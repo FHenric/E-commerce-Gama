@@ -1,129 +1,139 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    transition: 400ms;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  transition: 400ms;
 }
 
-/* Header */
-body, .card-body{
-    background-color: #e0fdff;
+body, .card-body {
+  background-color: #e0fdff;
 }
-.navbar{
-    color: #e0fdff !important;
-}
-.bg-primary{
-    background-color: #00c2cb !important;
-}
-header img{
-    max-width: 300px;
-    max-height: 250px;
-}
-/* Fim do header */
 
+.navbar {
+  color: #e0fdff !important;
+}
 
+.bg-primary {
+  background-color: #00c2cb !important;
+}
 
-/* Footer */
-footer{
-    background-color: #00c2cb;
-    padding: 15px 30px;
+header img {
+  max-width: 300px;
+  max-height: 250px;
 }
-.footer ul{
-    list-style: none;
-}
-.footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin: 0px 30px;
-    
-}
-.about, .contact, .social-media{
-    margin: 0px 30px 10px 30px;
-    color: #052529;
-}
-.footer h3{
-    color: #052529;
-    margin-bottom: 5px;
-}
-.about a, .contact a{
-    color: #052529;
-    text-decoration: none;
-}
-.footer a:hover{
-    text-decoration: underline;
-}
-#rs1{
-    background-color: #052529;
-    color: #00c2cb;
-    font-size: 25px;
-    padding: 5px;
-    border-radius: 4px;
-    
-} 
-#rs2{
-    background-color: #052529;
-    color: #00c2cb;
-    font-size: 25px;
-    padding: 5px 8.5px;
-    border-radius: 4px;
-}
-#rs1:hover, #rs2:hover{
-    border: 1px solid #052529;
-    border-radius: 4px;
-    color: #052529;
-    background-color: #00c2cb;
-}
-/* Fim do Footer */
 
-/* Main - Página principal */
-#vitrine{
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    justify-content: center;
+.vitrine {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
 }
-#produto{
-    margin: 15px auto;
-}
-.card-title, .card-body h3{
-    color: #017379;
-    font-style: bold;
-}
-.card-body p{
-    font-size: 19px;
-}
-#fabricante{
-    font-style: italic;
-    color: rgb(139, 139, 139);
-}
-#btn-detalhes{
-    background-color: #017379;
-    border:#017379;
-}
-#btn-detalhes:hover{
-    background-color: #00c2cb;
-    color: #052529;
-}
-/* Fim do Main - Página principal */
 
-/* Main - Produto */
-.accordion-button{
-    background-color: #017379;
-    color: #e0fdff;
+.produto {
+  margin: 15px auto;
 }
-#prod-rel{
-    background-color: #00c2cb;
-    color: #e0fdff;
-    margin: 1rem 0px;
-    padding: 5px 0px;
+.produto .card-title, .produto .card-body h3 {
+  color: #017379;
+  font-style: bold;
 }
-/* mini-rodapé */
-#assinatura{
-    background-color: rgb(190, 202, 255);
-    padding: 0px 0px -16px;
-    padding-left: 5px;
+.produto .card-body p {
+  font-size: 19px;
 }
-#assinatura s{
-    font-size: 10px;
+.produto .fabricante {
+  font-style: italic;
+  color: #8b8b8b;
 }
+.produto .detalhes {
+  background-color: #017379;
+  color: #e0fdff;
+  border: #017379;
+}
+.produto .detalhes:hover {
+  background-color: #00c2cb;
+  color: #052529;
+}
+
+.buy-btn {
+  background-color: #017379;
+  color: #e0fdff;
+  border: #017379;
+}
+.buy-btn:hover {
+  background-color: #00c2cb;
+  color: #052529;
+}
+
+.accordion-button {
+  background-color: #017379;
+  color: #e0fdff;
+}
+
+#prod-rel {
+  background-color: #00c2cb;
+  color: #e0fdff;
+  margin: 1rem 0px;
+  padding: 5px 0px;
+}
+
+footer {
+  background-color: #00c2cb;
+  padding: 15px 30px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0px 30px;
+}
+.footer ul {
+  list-style: none;
+}
+.footer h3 {
+  color: #052529;
+  margin-bottom: 5px;
+}
+.footer .about, .footer .contact, .footer .social-media {
+  margin: 0px 30px 10px 30px;
+  color: #052529;
+}
+.footer .about a, .footer .contact a {
+  color: #052529;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .rs1 {
+  background-color: #052529;
+  color: #00c2cb;
+  font-size: 25px;
+  border-radius: 4px;
+  padding: 5px;
+}
+.footer .rs1:hover {
+  border: 1px solid #052529;
+  border-radius: 4px;
+  color: #052529;
+  background-color: #00c2cb;
+}
+.footer .rs2 {
+  background-color: #052529;
+  color: #00c2cb;
+  font-size: 25px;
+  border-radius: 4px;
+  padding: 5px 8.5px;
+}
+.footer .rs2:hover {
+  border: 1px solid #052529;
+  border-radius: 4px;
+  color: #052529;
+  background-color: #00c2cb;
+}
+.footer .assinatura {
+  background-color: #becaff;
+  padding: 0px 0px -16px;
+  padding-left: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,9 @@
+@import 'variaveis';
+@import 'mixins';
+
+@include body;
+
+@import 'header'; 
+@import 'main';
+@import 'main-product';
+@import 'footer';

@@ -1,0 +1,13 @@
+body, .card-body{
+    background-color: $color-3;
+}
+.navbar{
+    color: $color-3 !important;
+}
+.bg-primary{
+    background-color: $color-2 !important;
+}
+header img{
+    max-width: 300px;
+    max-height: 250px;
+}
